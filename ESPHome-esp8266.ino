@@ -1,4 +1,4 @@
-#include <ESP8266WiFi.h>
+ //#include <ESP8266WiFi.h>
 #include <TimeLib.h>
 #include <ArduinoJson.h>
 //convert strings to char* for memory saving
@@ -27,7 +27,7 @@ int tm = 0;
 int th=0;
 time_t t ; // time variable t
 String sw;
-WiFiClient client;
+WiFiClient client; //Wifi access for the module
 
 int checkupdate()
 {
